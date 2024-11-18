@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:BookInfo.API.Controllers.BooksController.GetBooks(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Getting all the books in system data
+            </summary>
+            <param name="name">Get Books</param>
+            <param name="searchQuery"></param>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookInfo.API.Controllers.BooksController.GetBook(System.Int32,System.Boolean)">
+            <summary>
+            Gettimg a specific book
+            </summary>
+            <param name="Id"> with this ID</param>
+            <param name="IncClassesOfInterest"> and if it include classes of interest or no</param>
+            <returns></returns>
+        </member>
+        <member name="T:BookInfo.API.Migrations.mo7awla">
+            <inheritdoc />
+        </member>
+        <member name="M:BookInfo.API.Migrations.mo7awla.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookInfo.API.Migrations.mo7awla.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookInfo.API.Migrations.mo7awla.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

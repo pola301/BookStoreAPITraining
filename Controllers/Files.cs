@@ -1,10 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 
 namespace BookInfo.API.Controllers
 {
-    [Route("api/files")]
+    [Route("api/v{version:apiVersion}/files")]
+    //[Authorize]
     [ApiController]
+    [ApiVersion(1)]
     public class Files : ControllerBase
     {
         private readonly FileExtensionContentTypeProvider _extensionContentTypeProvider;

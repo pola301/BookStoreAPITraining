@@ -1,0 +1,391 @@
+2024-10-27 17:08:08.609 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-27 17:08:08.826 +03:00 [DBG] Hosting starting
+2024-10-27 17:08:09.174 +03:00 [INF] Now listening on: https://localhost:7236
+2024-10-27 17:08:09.175 +03:00 [INF] Now listening on: http://localhost:5118
+2024-10-27 17:08:09.177 +03:00 [DBG] Loaded hosting startup assembly BookInfo.API
+2024-10-27 17:08:09.177 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-27 17:08:09.178 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-27 17:08:09.179 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-27 17:08:09.284 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 17:08:09.286 +03:00 [INF] Hosting environment: Development
+2024-10-27 17:08:09.287 +03:00 [INF] Content root path: F:\projects\BookInfo\BookInfo.API
+2024-10-27 17:08:09.288 +03:00 [DBG] Hosting started
+2024-10-27 17:08:09.308 +03:00 [DBG] Connection id "0HN7MI34L2MSV" received FIN.
+2024-10-27 17:08:09.308 +03:00 [DBG] Connection id "0HN7MI34L2MSU" received FIN.
+2024-10-27 17:08:09.492 +03:00 [DBG] Connection id "0HN7MI34L2MSU" accepted.
+2024-10-27 17:08:09.492 +03:00 [DBG] Connection id "0HN7MI34L2MSV" accepted.
+2024-10-27 17:08:09.494 +03:00 [DBG] Connection id "0HN7MI34L2MSU" started.
+2024-10-27 17:08:09.495 +03:00 [DBG] Connection id "0HN7MI34L2MSV" started.
+2024-10-27 17:08:09.519 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:08:09.610 +03:00 [DBG] Connection id "0HN7MI34L2MT0" accepted.
+2024-10-27 17:08:09.519 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:08:09.659 +03:00 [DBG] Connection id "0HN7MI34L2MT0" started.
+2024-10-27 17:08:09.665 +03:00 [DBG] Connection id "0HN7MI34L2MSV" stopped.
+2024-10-27 17:08:09.665 +03:00 [DBG] Connection id "0HN7MI34L2MSU" stopped.
+2024-10-27 17:08:09.672 +03:00 [DBG] Connection id "0HN7MI34L2MSU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:08:09.672 +03:00 [DBG] Connection id "0HN7MI34L2MSV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:08:09.711 +03:00 [DBG] Connection 0HN7MI34L2MT0 established using the following protocol: "Tls13"
+2024-10-27 17:08:09.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.html - null null
+2024-10-27 17:08:10.191 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-27 17:08:10.303 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-27 17:08:10.306 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-27 17:08:10.318 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-27 17:08:10.319 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-27 17:08:10.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-27 17:08:10.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_vs/browserLink - null null
+2024-10-27 17:08:10.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.js - null null
+2024-10-27 17:08:10.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.html - 200 null text/html;charset=utf-8 462.684ms
+2024-10-27 17:08:10.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.js - 200 null application/javascript;charset=utf-8 133.0552ms
+2024-10-27 17:08:10.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 157.1054ms
+2024-10-27 17:08:10.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 197.5557ms
+2024-10-27 17:08:10.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - null null
+2024-10-27 17:08:10.847 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 212.2854ms
+2024-10-27 17:08:13.916 +03:00 [DBG] Connection id "0HN7MI34L2MT1" received FIN.
+2024-10-27 17:08:13.916 +03:00 [DBG] Connection id "0HN7MI34L2MT1" accepted.
+2024-10-27 17:08:13.918 +03:00 [DBG] Connection id "0HN7MI34L2MT1" started.
+2024-10-27 17:08:13.919 +03:00 [DBG] Connection id "0HN7MI34L2MT2" accepted.
+2024-10-27 17:08:13.920 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:08:13.920 +03:00 [DBG] Connection id "0HN7MI34L2MT2" started.
+2024-10-27 17:08:13.924 +03:00 [DBG] Connection id "0HN7MI34L2MT1" stopped.
+2024-10-27 17:08:13.926 +03:00 [DBG] Connection id "0HN7MI34L2MT1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:08:13.930 +03:00 [DBG] Connection 0HN7MI34L2MT2 established using the following protocol: "Tls13"
+2024-10-27 17:08:13.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7236/api/books/1/NumClasses - null null
+2024-10-27 17:08:14.241 +03:00 [DBG] The request path  does not match the path filter
+2024-10-27 17:08:14.654 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1/NumClasses'
+2024-10-27 17:08:15.005 +03:00 [DBG] Endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses (BookInfo.API)' with route pattern 'api/books/{bookId}/NumClasses' is valid for the request path '/api/books/1/NumClasses'
+2024-10-27 17:08:15.007 +03:00 [DBG] Request matched endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses (BookInfo.API)'
+2024-10-27 17:08:15.721 +03:00 [INF] Executing endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses (BookInfo.API)'
+2024-10-27 17:08:16.530 +03:00 [INF] Route matched with {action = "GetNumberOfClasses", controller = "CLassesOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[BookInfo.API.Models.ClassesOfInterest]] GetNumberOfClasses(Int32) on controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API).
+2024-10-27 17:08:16.952 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-27 17:08:16.954 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-27 17:08:16.955 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-27 17:08:16.957 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-27 17:08:16.959 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-27 17:08:16.963 +03:00 [DBG] Executing controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:08:16.965 +03:00 [DBG] Executed controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:08:16.983 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:08:16.987 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' using the name 'bookId' in request data ...
+2024-10-27 17:08:16.990 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:08:16.992 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:08:16.993 +03:00 [DBG] Attempting to validate the bound parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:08:16.998 +03:00 [DBG] Done attempting to validate the bound parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:08:22.335 +03:00 [DBG] Connection id "0HN7MI34L2MT0" received FIN.
+2024-10-27 17:08:22.339 +03:00 [DBG] The connection queue processing loop for 0HN7MI34L2MT0 completed.
+2024-10-27 17:08:22.341 +03:00 [INF] Executed action BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses (BookInfo.API) in 5376.8202ms
+2024-10-27 17:08:22.342 +03:00 [DBG] Connection id "0HN7MI34L2MT0" is closed. The last processed stream ID was 9.
+2024-10-27 17:08:22.345 +03:00 [INF] Executed endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses (BookInfo.API)'
+2024-10-27 17:08:22.345 +03:00 [DBG] Connection id "0HN7MI34L2MT0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:08:22.348 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Exception ex
+   at BookInfo.API.Controllers.CLassesOfInterestController.GetNumberOfClasses(Int32 bookId) in F:\projects\BookInfo\BookInfo.API\Controllers\CLassesOfInterestController.cs:line 20
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-27 17:08:22.357 +03:00 [DBG] Connection id "0HN7MI34L2MT0" stopped.
+2024-10-27 17:08:22.393 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-10-27 17:08:22.398 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-27 17:08:22.400 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-10-27 17:08:22.403 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-27 17:08:22.549 +03:00 [DBG] Connection id "0HN7MI34L2MT2" completed keep alive response.
+2024-10-27 17:08:22.551 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7236/api/books/1/NumClasses - 500 292 application/problem+json; charset=utf-8 8612.7277ms
+2024-10-27 17:24:01.100 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-27 17:24:01.308 +03:00 [DBG] Hosting starting
+2024-10-27 17:24:01.634 +03:00 [INF] Now listening on: https://localhost:7236
+2024-10-27 17:24:01.635 +03:00 [INF] Now listening on: http://localhost:5118
+2024-10-27 17:24:01.636 +03:00 [DBG] Loaded hosting startup assembly BookInfo.API
+2024-10-27 17:24:01.637 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-27 17:24:01.638 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-27 17:24:01.639 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-27 17:24:01.732 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 17:24:01.733 +03:00 [INF] Hosting environment: Development
+2024-10-27 17:24:01.734 +03:00 [INF] Content root path: F:\projects\BookInfo\BookInfo.API
+2024-10-27 17:24:01.735 +03:00 [DBG] Hosting started
+2024-10-27 17:24:02.153 +03:00 [DBG] Connection id "0HN7MIC0K4P5L" accepted.
+2024-10-27 17:24:02.153 +03:00 [DBG] Connection id "0HN7MIC0K4P5M" accepted.
+2024-10-27 17:24:02.155 +03:00 [DBG] Connection id "0HN7MIC0K4P5M" started.
+2024-10-27 17:24:02.155 +03:00 [DBG] Connection id "0HN7MIC0K4P5L" started.
+2024-10-27 17:24:02.163 +03:00 [DBG] Connection id "0HN7MIC0K4P5L" received FIN.
+2024-10-27 17:24:02.163 +03:00 [DBG] Connection id "0HN7MIC0K4P5M" received FIN.
+2024-10-27 17:24:02.194 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:24:02.194 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:24:02.446 +03:00 [DBG] Connection id "0HN7MIC0K4P5M" stopped.
+2024-10-27 17:24:02.446 +03:00 [DBG] Connection id "0HN7MIC0K4P5L" stopped.
+2024-10-27 17:24:02.452 +03:00 [DBG] Connection id "0HN7MIC0K4P5L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:24:02.452 +03:00 [DBG] Connection id "0HN7MIC0K4P5M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:24:02.525 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" accepted.
+2024-10-27 17:24:02.527 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" started.
+2024-10-27 17:24:02.580 +03:00 [DBG] Connection 0HN7MIC0K4P5N established using the following protocol: "Tls13"
+2024-10-27 17:24:03.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.html - null null
+2024-10-27 17:24:03.336 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-27 17:24:03.437 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-27 17:24:03.440 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-27 17:24:03.450 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-27 17:24:03.451 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-27 17:24:03.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.html - 200 null text/html;charset=utf-8 299.5444ms
+2024-10-27 17:24:03.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-27 17:24:03.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_vs/browserLink - null null
+2024-10-27 17:24:03.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.js - null null
+2024-10-27 17:24:03.528 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.js - 200 null application/javascript;charset=utf-8 55.8806ms
+2024-10-27 17:24:03.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 59.1067ms
+2024-10-27 17:24:03.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.0153ms
+2024-10-27 17:24:03.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - null null
+2024-10-27 17:24:03.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 192.5683ms
+2024-10-27 17:24:10.217 +03:00 [DBG] Connection id "0HN7MIC0K4P5O" accepted.
+2024-10-27 17:24:10.217 +03:00 [DBG] Connection id "0HN7MIC0K4P5O" received FIN.
+2024-10-27 17:24:10.218 +03:00 [DBG] Connection id "0HN7MIC0K4P5O" started.
+2024-10-27 17:24:10.219 +03:00 [DBG] Connection id "0HN7MIC0K4P5P" accepted.
+2024-10-27 17:24:10.221 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:24:10.221 +03:00 [DBG] Connection id "0HN7MIC0K4P5P" started.
+2024-10-27 17:24:10.224 +03:00 [DBG] Connection id "0HN7MIC0K4P5O" stopped.
+2024-10-27 17:24:10.226 +03:00 [DBG] Connection id "0HN7MIC0K4P5O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:24:10.230 +03:00 [DBG] Connection 0HN7MIC0K4P5P established using the following protocol: "Tls13"
+2024-10-27 17:24:10.238 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - null null
+2024-10-27 17:24:10.242 +03:00 [DBG] DELETE requests are not supported
+2024-10-27 17:24:10.277 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:24:10.281 +03:00 [DBG] Endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)' with route pattern 'api/books/{bookId}/NumClasses/{classNumber}' is valid for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:24:10.284 +03:00 [DBG] Request matched endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:24:10.287 +03:00 [INF] Executing endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:24:10.328 +03:00 [INF] Route matched with {action = "DeleteClass", controller = "CLassesOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteClass(Int32, Int32) on controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API).
+2024-10-27 17:24:10.332 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-27 17:24:10.334 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-27 17:24:10.335 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-27 17:24:10.337 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-27 17:24:10.338 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-27 17:24:10.342 +03:00 [DBG] Executing controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:24:10.345 +03:00 [DBG] Executed controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:24:10.366 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:24:10.371 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' using the name 'bookId' in request data ...
+2024-10-27 17:24:10.374 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:24:10.376 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:24:10.377 +03:00 [DBG] Attempting to validate the bound parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:24:10.381 +03:00 [DBG] Done attempting to validate the bound parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:24:10.384 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:24:10.386 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' using the name 'classNumber' in request data ...
+2024-10-27 17:24:10.388 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:24:10.389 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:24:10.390 +03:00 [DBG] Attempting to validate the bound parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:24:10.391 +03:00 [DBG] Done attempting to validate the bound parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:24:10.402 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-27 17:24:10.407 +03:00 [INF] Executed action BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API) in 63.5011ms
+2024-10-27 17:24:10.409 +03:00 [INF] Executed endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:24:10.412 +03:00 [DBG] Connection id "0HN7MIC0K4P5P" completed keep alive response.
+2024-10-27 17:24:10.414 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - 204 null null 176.2298ms
+2024-10-27 17:24:11.265 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" received FIN.
+2024-10-27 17:24:11.268 +03:00 [DBG] The connection queue processing loop for 0HN7MIC0K4P5N completed.
+2024-10-27 17:24:11.271 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" is closed. The last processed stream ID was 9.
+2024-10-27 17:24:11.272 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:24:11.281 +03:00 [DBG] Connection id "0HN7MIC0K4P5N" stopped.
+2024-10-27 17:34:32.845 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-27 17:34:33.009 +03:00 [DBG] Hosting starting
+2024-10-27 17:34:33.299 +03:00 [INF] Now listening on: https://localhost:7236
+2024-10-27 17:34:33.301 +03:00 [INF] Now listening on: http://localhost:5118
+2024-10-27 17:34:33.302 +03:00 [DBG] Loaded hosting startup assembly BookInfo.API
+2024-10-27 17:34:33.303 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-27 17:34:33.303 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-27 17:34:33.304 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-27 17:34:33.410 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 17:34:33.412 +03:00 [INF] Hosting environment: Development
+2024-10-27 17:34:33.413 +03:00 [INF] Content root path: F:\projects\BookInfo\BookInfo.API
+2024-10-27 17:34:33.414 +03:00 [DBG] Hosting started
+2024-10-27 17:34:33.497 +03:00 [DBG] Connection id "0HN7MIHSP3THA" accepted.
+2024-10-27 17:34:33.499 +03:00 [DBG] Connection id "0HN7MIHSP3THA" started.
+2024-10-27 17:34:33.501 +03:00 [DBG] Connection id "0HN7MIHSP3THB" accepted.
+2024-10-27 17:34:33.502 +03:00 [DBG] Connection id "0HN7MIHSP3THB" started.
+2024-10-27 17:34:33.534 +03:00 [DBG] Connection id "0HN7MIHSP3THB" received FIN.
+2024-10-27 17:34:33.534 +03:00 [DBG] Connection id "0HN7MIHSP3THA" received FIN.
+2024-10-27 17:34:33.553 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:34:33.553 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:34:33.602 +03:00 [DBG] Connection id "0HN7MIHSP3THB" stopped.
+2024-10-27 17:34:33.602 +03:00 [DBG] Connection id "0HN7MIHSP3THA" stopped.
+2024-10-27 17:34:33.608 +03:00 [DBG] Connection id "0HN7MIHSP3THA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:34:33.608 +03:00 [DBG] Connection id "0HN7MIHSP3THB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:34:33.782 +03:00 [DBG] Connection id "0HN7MIHSP3THC" accepted.
+2024-10-27 17:34:33.784 +03:00 [DBG] Connection id "0HN7MIHSP3THC" started.
+2024-10-27 17:34:33.836 +03:00 [DBG] Connection 0HN7MIHSP3THC established using the following protocol: "Tls13"
+2024-10-27 17:34:33.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.html - null null
+2024-10-27 17:34:34.049 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-27 17:34:34.164 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-27 17:34:34.168 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-27 17:34:34.179 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-27 17:34:34.181 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-27 17:34:34.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.html - 200 null text/html;charset=utf-8 274.4768ms
+2024-10-27 17:34:34.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_vs/browserLink - null null
+2024-10-27 17:34:34.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-27 17:34:34.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.js - null null
+2024-10-27 17:34:34.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.js - 200 null application/javascript;charset=utf-8 16.9848ms
+2024-10-27 17:34:34.232 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 30.2134ms
+2024-10-27 17:34:34.265 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.4272ms
+2024-10-27 17:34:34.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - null null
+2024-10-27 17:34:35.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 735.4629ms
+2024-10-27 17:34:36.471 +03:00 [DBG] Connection id "0HN7MIHSP3THD" accepted.
+2024-10-27 17:34:36.471 +03:00 [DBG] Connection id "0HN7MIHSP3THD" received FIN.
+2024-10-27 17:34:36.472 +03:00 [DBG] Connection id "0HN7MIHSP3THD" started.
+2024-10-27 17:34:36.473 +03:00 [DBG] Connection id "0HN7MIHSP3THE" accepted.
+2024-10-27 17:34:36.475 +03:00 [DBG] Connection id "0HN7MIHSP3THE" started.
+2024-10-27 17:34:36.476 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-27 17:34:36.480 +03:00 [DBG] Connection id "0HN7MIHSP3THD" stopped.
+2024-10-27 17:34:36.481 +03:00 [DBG] Connection 0HN7MIHSP3THE established using the following protocol: "Tls13"
+2024-10-27 17:34:36.482 +03:00 [DBG] Connection id "0HN7MIHSP3THD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:34:36.489 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - null null
+2024-10-27 17:34:36.495 +03:00 [DBG] DELETE requests are not supported
+2024-10-27 17:34:36.535 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:34:36.540 +03:00 [DBG] Endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)' with route pattern 'api/books/{bookId}/NumClasses/{classNumber}' is valid for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:34:36.542 +03:00 [DBG] Request matched endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:36.546 +03:00 [INF] Executing endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:36.581 +03:00 [INF] Route matched with {action = "DeleteClass", controller = "CLassesOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteClass(Int32, Int32) on controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API).
+2024-10-27 17:34:36.585 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-27 17:34:36.587 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-27 17:34:36.589 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-27 17:34:36.591 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-27 17:34:36.592 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-27 17:34:36.596 +03:00 [DBG] Executing controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:34:36.599 +03:00 [DBG] Executed controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:34:36.616 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:34:36.620 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' using the name 'bookId' in request data ...
+2024-10-27 17:34:36.624 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:36.629 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:36.630 +03:00 [DBG] Attempting to validate the bound parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:34:36.634 +03:00 [DBG] Done attempting to validate the bound parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:36.639 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:34:36.641 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' using the name 'classNumber' in request data ...
+2024-10-27 17:34:36.643 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:36.644 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:36.646 +03:00 [DBG] Attempting to validate the bound parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:34:36.647 +03:00 [DBG] Done attempting to validate the bound parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:36.657 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-27 17:34:36.664 +03:00 [INF] Executed action BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API) in 65.25ms
+2024-10-27 17:34:36.665 +03:00 [INF] Executed endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:36.668 +03:00 [DBG] Connection id "0HN7MIHSP3THE" completed keep alive response.
+2024-10-27 17:34:36.669 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - 204 null null 180.8442ms
+2024-10-27 17:34:42.165 +03:00 [DBG] Connection id "0HN7MIHSP3THC" received FIN.
+2024-10-27 17:34:42.168 +03:00 [DBG] The connection queue processing loop for 0HN7MIHSP3THC completed.
+2024-10-27 17:34:42.171 +03:00 [DBG] Connection id "0HN7MIHSP3THC" is closed. The last processed stream ID was 9.
+2024-10-27 17:34:42.172 +03:00 [DBG] Connection id "0HN7MIHSP3THC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-27 17:34:42.179 +03:00 [DBG] Connection id "0HN7MIHSP3THC" stopped.
+2024-10-27 17:34:57.216 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - null null
+2024-10-27 17:34:57.219 +03:00 [DBG] DELETE requests are not supported
+2024-10-27 17:34:57.221 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:34:57.222 +03:00 [DBG] Endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)' with route pattern 'api/books/{bookId}/NumClasses/{classNumber}' is valid for the request path '/api/books/1/NumClasses/1'
+2024-10-27 17:34:57.224 +03:00 [DBG] Request matched endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:57.225 +03:00 [INF] Executing endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:57.227 +03:00 [INF] Route matched with {action = "DeleteClass", controller = "CLassesOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteClass(Int32, Int32) on controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API).
+2024-10-27 17:34:57.228 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-27 17:34:57.230 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-27 17:34:57.231 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-27 17:34:57.233 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-27 17:34:57.234 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-27 17:34:57.236 +03:00 [DBG] Executing controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:34:57.238 +03:00 [DBG] Executed controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:34:57.240 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:34:57.241 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' using the name 'bookId' in request data ...
+2024-10-27 17:34:57.243 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:57.244 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:57.245 +03:00 [DBG] Attempting to validate the bound parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:34:57.246 +03:00 [DBG] Done attempting to validate the bound parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:34:57.248 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:34:57.249 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' using the name 'classNumber' in request data ...
+2024-10-27 17:34:57.251 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:57.252 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:57.253 +03:00 [DBG] Attempting to validate the bound parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:34:57.254 +03:00 [DBG] Done attempting to validate the bound parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:34:57.259 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-10-27 17:34:57.264 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-27 17:34:57.266 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-27 17:34:57.269 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-27 17:34:57.271 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-27 17:34:57.419 +03:00 [INF] Executed action BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API) in 183.3368ms
+2024-10-27 17:34:57.420 +03:00 [INF] Executed endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:34:57.421 +03:00 [DBG] Connection id "0HN7MIHSP3THE" completed keep alive response.
+2024-10-27 17:34:57.422 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/1 - 404 233 application/problem+json; charset=utf-8 205.5832ms
+2024-10-27 17:35:04.280 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/2 - null null
+2024-10-27 17:35:04.283 +03:00 [DBG] DELETE requests are not supported
+2024-10-27 17:35:04.283 +03:00 [DBG] 1 candidate(s) found for the request path '/api/books/1/NumClasses/2'
+2024-10-27 17:35:04.284 +03:00 [DBG] Endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)' with route pattern 'api/books/{bookId}/NumClasses/{classNumber}' is valid for the request path '/api/books/1/NumClasses/2'
+2024-10-27 17:35:04.286 +03:00 [DBG] Request matched endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:35:04.287 +03:00 [INF] Executing endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:35:04.288 +03:00 [INF] Route matched with {action = "DeleteClass", controller = "CLassesOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteClass(Int32, Int32) on controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API).
+2024-10-27 17:35:04.289 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-27 17:35:04.291 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-27 17:35:04.292 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-27 17:35:04.294 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-27 17:35:04.295 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-27 17:35:04.296 +03:00 [DBG] Executing controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:35:04.297 +03:00 [DBG] Executed controller factory for controller BookInfo.API.Controllers.CLassesOfInterestController (BookInfo.API)
+2024-10-27 17:35:04.298 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:35:04.300 +03:00 [DBG] Attempting to bind parameter 'bookId' of type 'System.Int32' using the name 'bookId' in request data ...
+2024-10-27 17:35:04.301 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:35:04.302 +03:00 [DBG] Done attempting to bind parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:35:04.303 +03:00 [DBG] Attempting to validate the bound parameter 'bookId' of type 'System.Int32' ...
+2024-10-27 17:35:04.304 +03:00 [DBG] Done attempting to validate the bound parameter 'bookId' of type 'System.Int32'.
+2024-10-27 17:35:04.305 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:35:04.307 +03:00 [DBG] Attempting to bind parameter 'classNumber' of type 'System.Int32' using the name 'classNumber' in request data ...
+2024-10-27 17:35:04.308 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:35:04.309 +03:00 [DBG] Done attempting to bind parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:35:04.310 +03:00 [DBG] Attempting to validate the bound parameter 'classNumber' of type 'System.Int32' ...
+2024-10-27 17:35:04.311 +03:00 [DBG] Done attempting to validate the bound parameter 'classNumber' of type 'System.Int32'.
+2024-10-27 17:35:04.312 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-27 17:35:04.313 +03:00 [INF] Executed action BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API) in 16.9584ms
+2024-10-27 17:35:04.314 +03:00 [INF] Executed endpoint 'BookInfo.API.Controllers.CLassesOfInterestController.DeleteClass (BookInfo.API)'
+2024-10-27 17:35:04.315 +03:00 [DBG] Connection id "0HN7MIHSP3THE" completed keep alive response.
+2024-10-27 17:35:04.315 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7236/api/books/1/NumClasses/2 - 204 null null 35.3628ms

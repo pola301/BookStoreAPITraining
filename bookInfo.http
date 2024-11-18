@@ -1,0 +1,44 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@schema=https
+@hostname=localhost
+@port=7236
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/books
+
+###
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/books
+Accept:application/xml
+
+###
+
+POST {{schema}}://{{hostname}}:{{port}}/api/v2/books/1/NumClasses/1
+Accept:application/json
+Content-Type:application/json
+
+{
+    "name": "Père Lachaise",
+    "description": "Famous cemetery where Jim Morrison and Oscar Wilde are buried."
+}
+
+###
+
+@poiid = {{createpoi.response.body.id}}
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/books/1/NumClasses/{{poiid}}
+Accept:application/json
+
+###
+
+POST {{schema}}://{{hostname}}:{{port}}/api/authentication/authenticate
+Content-Type:application/json
+
+{
+    "username": "KevinDockx",
+    "password": "This is a relatively long sentence that acts as my password"
+}
+
+###
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiR2l2ZW4gTmFtZSI6IlBhdWxhIiwiUGFyZW50IE5hbWUiOiJEb2NreCIsImJvb2siOiJBbnR3ZXJwIiwiZXhwIjoxNzMxOTM4NDIyLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MjM2IiwiYXVkIjoiYm9va2luZm9hcGkifQ.iwLOQqnshD9kgkrxtTozvTKmQ8wKJfuVUaQg1t_fKP0
